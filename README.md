@@ -24,11 +24,11 @@ on port 9000. You need to change the ip address and port according to your own t
     ```
 
 If the communication is good, you should be able to see the following results on host B.
-    ```
+  
+  ```
     $ python3 client.py 192.168.10.20 9000 Is the network Ok?
     Sent:     Is the network Ok?
     Received: IS THE NETWORK OK?
     Duration: 0.000533 seconds
     Network OK between 192.168.10.20 and 127.0.1.1
-
-    ```
+   ```
