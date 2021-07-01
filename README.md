@@ -5,7 +5,9 @@ a given port. Used together, the client and server can ne used to isolate the ca
 
 ## Get the code
 
-    ```git clone git@github.com:fengxizhou/pynettest.git```
+    ```
+    git clone git@github.com:fengxizhou/pynettest.git
+    ```
 
 ## Usage
 Assume we plan to test if a client on host B can communicate with a server on host A (ip=192.168.10.20) listening
