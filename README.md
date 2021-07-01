@@ -13,11 +13,15 @@ on port 9000. You need to change the ip address and port according to your own t
 
 ### 1. Start a server on host A
     
-    ```python3 server.py 192.168.10.20 9000```
+   ```
+   python3 server.py 192.168.10.20 9000
+   ```
 
 ### 2. Test at client on host B
     
-    ```python3 client.py 192.168.10.20 9000 is server ok?```
+    ```
+    python3 client.py 192.168.10.20 9000 is server ok?
+    ```
 
 If the communication is good, you should be able to see the following results on host B.
     ```
